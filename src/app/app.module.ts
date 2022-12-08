@@ -19,7 +19,7 @@ import {ReactiveFormsModule} from '@angular/forms';
     MovieDetailsComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule
